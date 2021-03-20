@@ -5,23 +5,24 @@
 
 /* If you want to add a background image to the home page banner instead of using a solid color.
 Just un comment the #banner rule below. */
-/* #banner {
-  background-image: url(../../images/pic01.jpg);
+ #banner {
+  /*background-image: url(../../images/pic01.jpg); */
+  background-color: #DCCA90;
   background-size: cover;
   color: rgba(255, 255, 255, 0.75);
-  text-shadow: 1px 1px 15px #333;
+  /*text-shadow: 1px 1px 30px #333;*/
   text-align: center;
   cursor: default;
   padding: 10em 4em 9em 4em;
-} */
+} 
 
 
 
 /* If you want to change the banner button color. The following two css rules use a class called "redbtn".
 You can call the class whatever you want, but in order for it to work, it needs to be
 added to the button in the index html file as well.*/
-#banner .button.orange {
-  background-color: rgba(188, 46, 26, 1);
+#banner .button.orangebtn {
+  background-color: #FA6500;
   box-shadow: none;
 }
 
@@ -34,3 +35,16 @@ added to the button in the index html file as well.*/
 /*********************************************
  Write your css customizations below
  *********************************************/
+.post .content {
+  text-align: left;
+}
+h1,h2,h3{
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+p{
+  font-family: azo-sans-web, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
